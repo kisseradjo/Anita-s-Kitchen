@@ -276,7 +276,6 @@ div.part3a {
   outline-style: solid;
   outline-width: 2px;
   outline-color: #F15A29;
-  /*-webkit-tap-highlight-color: none;*/
 }
 a:hover {
   background-color: #ddd;
@@ -297,11 +296,10 @@ div.part3d {
   text-align: right;
   margin-left: 40px;
 }
-.container {
-  padding-top: 6%;
-  padding-bottom: 5%;
-  padding-right: 0%;
-  padding-left: 0%;
+.checker {
+  padding: 6% 0% 5% 0%;
+}
+
 }
 h2 {
   font-size: 30px;
@@ -325,57 +323,61 @@ h3 {
 .part4 {
   background: url(../assets/images/backgrounds/foodsBg.jpg);
   background-size: 100%;
-  padding-bottom: 0%;
   width: 100%;
   min-height: 500px;
   background-repeat: no-repeat;
-  padding-top: 3%;
+  padding-top: 95px;
+  padding-left: 165px;
 }
-.active {
+.burger .active {
   background-color: white;
-  color: orange;
+  color: red;
 }
 .part4b p {
   color: red;
   font-weight: bold;
 }
+.part4b img {
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
 .burger .col-md-3:hover:not(.active) {
   background-color: white;
   cursor: pointer;
 }
-.burger .col-md-3 {
+.burger .col-md-3:not(.active) {
   background-color: #E3E3E3;
-  color: #AEAEAE;
   border-right: 1px solid #bbb;
   border-bottom: 1px solid #bbb;
+  width: 240px;
 }
 .burger {
-  background-color: grey;
-  margin-top: 50px;
-  margin-bottom: 50px;
-  width: 80%;
+  /*padding: 55px 50px 0 80px;*/
+  width: 990px;
   text-align: center;
-  margin: 0 10% 0 10%;
-  color: black;
+}
+.cols {
+  width: 1145px;
+  /*height: 50px;*/
 }
 .burger .inactive {
   color: black;
 }
 .part4b {
   background-color: white;
+  padding-left: 5px;
 }
 .part5 {
-  /*min-height: 40px;*/
   background-color: white;
   background-size: 100%;
+  min-height: 300px;
 }
-.customers {}
 .comments {
   background-color: white;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  /*min-height: 50px;*/
-  display: flow-root;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 20px 0 rgba(0, 0, 0, 0.19);
   font-size: 15px;
+  min-height: 200px;
+  margin: 42px 0 0 0;
 }
 h4 {
   color: #F15A29;
@@ -383,15 +385,14 @@ h4 {
 }
 .menu {
   float: left;
-  /*width: 40%;*/
   text-align: center;
   margin-right: 30px;
-  /*margin-left: 200px;*/
   font-size: 15px;
 }
 .people {
-  /*width: 60%;*/
   text-align: center;
+  border-right: 1px solid;
+  border-color: lightgrey;
 }
 .pictures-customers {
   padding-left: 5px;
