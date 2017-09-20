@@ -247,43 +247,6 @@ h1 {
   padding: 80px;
   background-repeat: no-repeat;
 }
-
-/*.container {
-      position: relative;
-      width: 50%;
-    }
-    .image {
-      display: block;
-      width: 100%;
-      height: auto;
-    }
-
-    .overlay {
-      position: absolute;
-      top: 0;
-      bottom: 0;
-      left: 0;
-      right: 0;
-      height: 100%;
-      width: 100%;
-      opacity: 0;
-      transition: .5s ease;
-      background-image: url(../assets/images/foodtop/dinner2.jpg);
-    }
-
-    .container:hover .overlay {
-      opacity: 1;
-    }
-
-    .text {
-      color: black;
-      font-size: 20px;
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      -ms-transform: translate(-50%, -50%);
-    }*/
 .part2c {
   background-image: url(../assets/images/foodtop/lunch.jpg);
   background-size: 100%;
@@ -366,38 +329,40 @@ h3 {
   width: 100%;
   min-height: 500px;
   background-repeat: no-repeat;
-}
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: lightgrey;
-}
-li {
-  float: left;
-  border-right: 1px solid #bbb;
-}
-li:last-child {
-  border-right: none;
-}
-li a {
-  display: block;
-  color: black;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-li a:hover:not(.active) {
-  background-color: white;
+  padding-top: 3%;
 }
 .active {
   background-color: white;
+  color: orange;
+}
+.part4b p {
+  color: red;
+  font-weight: bold;
+}
+.burger .col-md-3:hover:not(.active) {
+  background-color: white;
+  cursor: pointer;
+}
+.burger .col-md-3 {
+  background-color: #E3E3E3;
+  color: #AEAEAE;
+  border-right: 1px solid #bbb;
+  border-bottom: 1px solid #bbb;
 }
 .burger {
+  background-color: grey;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  width: 80%;
+  text-align: center;
+  margin: 0 10% 0 10%;
+  color: black;
+}
+.burger .inactive {
+  color: black;
+}
+.part4b {
   background-color: white;
-  margin-left: 100px;
-  margin-right: 100px;
 }
 .part5 {
   /*min-height: 40px;*/
