@@ -12,215 +12,32 @@ body {
   background-repeat: no-repeat;
 }
 
-
-/* The Overlay (background) */
-
-.overlay {
-  /* Height & width depends on how you want to reveal the overlay (see JS below) */
-  height: 100%;
-  width: 0;
-  position: fixed;
-  /* Stay in place */
-  z-index: 1;
-  /* Sit on top */
-  left: 0;
-  top: 0;
-  background-color: rgb(0, 0, 0);
-  /* Black fallback color */
-  background-color: rgba(0, 0, 0, 0.9);
-  /* Black w/opacity */
-  overflow-x: hidden;
-  /* Disable horizontal scroll */
-  transition: 0.5s;
-  /* 0.5 second transition effect to slide in or slide down the overlay (height or width, depending on reveal) */
-}
-
-
-/* Position the content inside the overlay */
-
-.overlay-content {
-  position: relative;
-  top: 25%;
-  /* 25% from the top */
-  width: 100%;
-  /* 100% width */
-  text-align: center;
-  /* Centered text/links */
-  margin-top: 30px;
-  /* 30px top margin to avoid conflict with the close button on smaller screens */
-}
-
-
-/* The navigation links inside the overlay */
-
-.overlay a {
-  padding: 8px;
-  text-decoration: none;
-  font-size: 36px;
-  color: #818181;
-  display: block;
-  /* Display block instead of inline */
-  transition: 0.3s;
-  /* Transition effects on hover (color) */
-}
-
-
-/* When you mouse over the navigation links, change their color */
-
-.overlay a:hover, .overlay a:focus {
-  color: #f1f1f1;
-}
-
-
-/* Position the close button (top right corner) */
-
-.overlay .closebtn {
-  position: absolute;
-  top: 20px;
-  right: 45px;
-  font-size: 60px;
-}
-
-
-/* When the height of the screen is less than 450 pixels, change the font-size of the links and position the close button again, so they don't overlap */
-
-@media screen and (max-height: 450px) {
-  .overlay a {
-    font-size: 20px
-  }
-  .overlay .closebtn {
-    font-size: 40px;
-    top: 15px;
-    right: 35px;
-  }
-}
-
-
-/*.nav {
-                  display: inline-block;
-                  cursor: pointer;
-                  margin-left: 80px;
-                  margin-top: 80px;
-                  /* Height & width depends on how you want to reveal the overlay (see JS below) */
-
-height: 100%;
-width: 0;
-position: fixed;
-
-/* Stay in place */
-
-z-index: 1;
-
-/* Sit on top */
-
-left: 0;
-top: 0;
-background-color: rgb(0, 0, 0);
-
-/* Black fallback color */
-
-background-color: rgba(0, 0, 0, 0.9);
-
-/* Black w/opacity */
-
-overflow-x: hidden;
-
-/* Disable horizontal scroll */
-
-transition: 0.5s;
-
-}
-.nav-content {
-  position: relative;
-  top: 25%;
-  /* 25% from the top */
-
-  width: 100%;
-  /* 100% width */
-
-  text-align: center;
-  /* Centered text/links */
-
-  margin-top: 30px;
-}
-.nav a {
-  padding: 8px;
-  text-decoration: none;
-  font-size: 36px;
-  color: #818181;
-  display: block;
-  /* Display block instead of inline */
-
-  transition: 0.3s;
-}
-.nav a:hover, .nav a:focus {
-  color: #f1f1f1;
-}
-.nav .closebtn {
-  position: absolute;
-  top: 20px;
-  right: 45px;
-  font-size: 60px;
-}
-@media screen and (max-height: 450px) {
-  .nav a {
-    font-size: 20px
-  }
-
-  .nav .closebtn {
-    font-size: 40px;
-    top: 15px;
-    right: 35px;
-  }
-}
-*/
-/*.bar1, .bar2, .bar3 {
-                  width: 55px;
-                  height: 2.5px;
-                  background-color: white;
-                  margin: 8px 0;
-                  transition: 0.4s;
-                }
-                /* Rotate first bar */
-.change .bar1 {
-  -webkit-transform: rotate(-45deg) translate(-9px, 6px);
-  transform: rotate(-45deg) translate(-9px, 6px);
-}
-
-/* Fade out the second bar */
-.change .bar2 {
-  opacity: 0;
-}
-
-/* Rotate last bar */
-.change .bar3 {
-  -webkit-transform: rotate(45deg) translate(-8px, -8px);
-  transform: rotate(45deg) translate(-8px, -8px);
-}
-*/
-}
 .logo {
   /*padding: 0px 0 0 0;*/
   text-align: center;
 }
+
 h1 {
   text-align: center;
   margin-top: 30px;
   color: white;
   font-size: 30px;
 }
+
 .col-md-3 {
   text-align: center;
   color: white;
   font-size: 20px;
   padding: 0px;
 }
+
 .panel {
   background-size: 100%;
   width: 100%;
   min-height: 200px;
   padding: 100px;
 }
+
 .part2b {
   background: url(../assets/images/foodtop/breakfast.jpg);
   background-size: 100%;
@@ -229,17 +46,20 @@ h1 {
   padding: 80px;
   background-repeat: no-repeat;
 }
+
 .happy {
   background-color: lightgrey;
   color: black;
   min-height: 50px;
   padding: 31px;
 }
+
 .time {
   background-color: #F15A29;
   min-height: 100px;
   padding: 31px;
 }
+
 .part2d {
   background-image: url(../assets/images/foodtop/dinner.jpg);
   background-size: 100%;
@@ -248,6 +68,7 @@ h1 {
   padding: 80px;
   background-repeat: no-repeat;
 }
+
 .part2c {
   background-image: url(../assets/images/foodtop/lunch.jpg);
   background-size: 100%;
@@ -256,20 +77,24 @@ h1 {
   padding: 80px;
   background-repeat: no-repeat;
 }
+
 div.part3a {
   padding: 20px;
   box-shadow: 0 4px 0px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   margin-left: 40px;
 }
+
 .part3b {
   margin-right: 40px;
   margin-left: 30px;
 }
+
 .next {
   background-color: white;
   color: #F15A29;
   text-decoration: none;
 }
+
 .gallery {
   display: inline-block;
   padding: 8px 16px;
@@ -278,28 +103,34 @@ div.part3a {
   outline-width: 2px;
   outline-color: #F15A29;
 }
+
 a:hover {
   background-color: #ddd;
   text-decoration: none;
   cursor: pointer;
   color: #F15A29;
 }
+
 div.part3d {
   padding: 20px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   float: left;
   margin-left: 30px;
 }
+
 .stubborn {
   float: left;
 }
+
 .part3c {
   text-align: right;
   margin-left: 40px;
 }
+
 .checker {
   padding: 6% 0% 5% 0%;
 }
+
 
 }
 h2 {
@@ -361,6 +192,7 @@ h3 {
 }
 .burger {
   /*padding: 55px 50px 0 80px;*/
+
   width: 990px;
   text-align: center;
 }
@@ -436,10 +268,10 @@ input {
   color: white;
 }
 #name {
-  background-color:#F15A29;
+  background-color: #F15A29;
   border-color: #F15A29;
-  height:45px;
-  width:200px;
+  height: 45px;
+  width: 200px;
   font-size: 20px;
   color: white;
   margin-left: 20px;
