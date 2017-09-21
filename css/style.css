@@ -329,6 +329,12 @@ h3 {
   padding-top: 95px;
   padding-left: 165px;
 }
+.fa-chevron-left {
+  color: red;
+}
+.fa-chevron-right {
+  color: red;
+}
 .burger .active {
   background-color: white;
   color: red;
