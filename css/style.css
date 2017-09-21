@@ -1,5 +1,6 @@
 body {
   margin: 0 0;
+  font-family: 'Arvo', sans-serif;
 }
 
 .part1 {
@@ -349,6 +350,7 @@ h3 {
 }
 .burger .col-md-3:hover:not(.active) {
   background-color: white;
+  color: red;
   cursor: pointer;
 }
 .burger .col-md-3:not(.active) {
