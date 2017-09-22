@@ -29,6 +29,7 @@ a {
   font-size: 300%;
   padding: 5%;
   color: white;
+  z-index: +1;
 }
 
 #close-nav {
@@ -36,7 +37,7 @@ a {
   font-size: 50%;
   padding: 5px 15px 900px 500px;
   left: 90%;
-  top: 20px;
+  /*top: 20px;*/
   margin-bottom: 100%;
   top: 5%;
 }
@@ -48,57 +49,6 @@ a {
   width: 100%;
   min-height: 600px;
   background-repeat: no-repeat;
-}
-
-.overlay {
-  height: 100%;
-  width: 0;
-  position: fixed;
-  z-index: 1;
-  top: 0;
-  left: 0;
-  background-color: #F15A29;
-  overflow-x: hidden;
-  transition: 0.5s;
-}
-
-.overlay-content {
-  position: relative;
-  top: 25%;
-  width: 100%;
-  text-align: center;
-  margin-top: 30px;
-}
-
-.overlay a {
-  padding: 8px;
-  text-decoration: none;
-  font-size: 36px;
-  color: black;
-  display: block;
-  transition: 0.3s;
-}
-
-.overlay a:hover, .overlay a:focus {
-  color: #f1f1f1;
-}
-
-.overlay .closebtn {
-  position: absolute;
-  top: 20px;
-  right: 45px;
-  font-size: 60px;
-}
-
-@media screen and (max-height: 450px) {
-  .overlay a {
-    font-size: 20px
-  }
-  .overlay .closebtn {
-    font-size: 40px;
-    top: 15px;
-    right: 35px;
-  }
 }
 
 .logo {
@@ -140,7 +90,7 @@ h1 {
 
 .part2b:hover {
   opacity: 0.8;
-  filter: alpha(opacity=25);
+  /*filter: alpha(opacity=25);*/
   color: black;
 }
 
@@ -245,27 +195,24 @@ div.part3d {
   padding: 6% 0% 5% 0%;
 }
 
-
-}
 h2 {
   font-size: 30px;
 }
+
 h3 {
   font-size: 30px;
 }
 
-/*.food {
-    float: right;
-    width: auto;
-  }*/
 .drinks {
   width: auto;
   padding-top: 8%;
 }
+
 .foo {
   margin-top: 80px;
   padding-top: 100px;
 }
+
 .part4 {
   background: url(../assets/images/backgrounds/foodsBg.jpg);
   background-size: 100%;
@@ -275,57 +222,67 @@ h3 {
   padding-top: 95px;
   padding-left: 165px;
 }
+
 .fa-chevron-left {
   color: red;
 }
+
 .fa-chevron-right {
   color: red;
 }
+
 .burger .active {
   background-color: white;
   color: red;
 }
+
 .part4b p {
   color: red;
   font-weight: bold;
 }
+
 .part4b img {
   padding-top: 20px;
   padding-bottom: 10px;
 }
+
 .burger .col-md-3:hover:not(.active) {
   background-color: white;
   color: red;
   cursor: pointer;
 }
+
 .burger .col-md-3:not(.active) {
   background-color: #E3E3E3;
   border-right: 1px solid #bbb;
   border-bottom: 1px solid #bbb;
   width: 240px;
 }
-.burger {
-  /*padding: 55px 50px 0 80px;*/
 
+.burger {
   width: 990px;
   text-align: center;
 }
+
 .cols {
   width: 1145px;
-  /*height: 50px;*/
 }
+
 .burger .inactive {
   color: black;
 }
+
 .part4b {
   background-color: white;
   padding-left: 5px;
 }
+
 .part5 {
   background-color: white;
   background-size: 100%;
   min-height: 300px;
 }
+
 .comments {
   background-color: white;
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 20px 0 rgba(0, 0, 0, 0.19);
@@ -333,25 +290,30 @@ h3 {
   min-height: 200px;
   margin: 42px 0 0 0;
 }
+
 h4 {
   color: #F15A29;
   font-size: 20px;
 }
+
 .menu {
   float: left;
   text-align: center;
   margin-right: 30px;
   font-size: 15px;
 }
+
 .people {
   text-align: center;
   border-right: 1px solid;
   border-color: lightgrey;
 }
+
 .pictures-customers {
   padding-left: 5px;
   padding-right: 5px;
 }
+
 .part6 {
   background-image: url(../assets/images/backgrounds/subscribe.jpg);
   background-size: 100%;
@@ -360,27 +322,33 @@ h4 {
   min-height: 287px;
   background-repeat: no-repeat;
 }
+
 .name {
   color: white;
   font-size: 500px;
 }
+
 .form-inline {
   margin-left: 280px;
   padding-top: 100px;
 }
+
 .form-group {
   color: white;
   font-size: 25px;
   text-align: center;
   padding-left: 120px;
 }
+
 .form-control {
   opacity: 0.5;
   color: white;
 }
+
 input {
-  color: white;
+  color: black;
 }
+
 #name {
   background-color: #F15A29;
   border-color: #F15A29;
@@ -390,11 +358,13 @@ input {
   color: white;
   margin-left: 20px;
 }
+
 #the-email {
   height: 45px;
   width: 350px;
   font-size: 20px;
 }
+
 .part7 {
   background-color: #F15A29;
   min-height: 300px;
@@ -402,24 +372,35 @@ input {
   text-align: center;
   background-repeat: no-repeat;
 }
+
 .lastpart {
   text-align: center;
   color: white;
 }
+
 .whitelogo {
   padding-top: 30px;
 }
+
 .lastpart h6 {
   font-size: 40px;
 }
+
 .what-we-do {
   font-size: 20px;
 }
+
 .menurestaurant {
   font-size: 12px;
   color: white;
   padding-top: 60px;
 }
+
 .socialmedia {
   padding: 0 1% 0 0%;
+}
+
+.fa {
+  font-size: 40px;
+  color: white;
 }

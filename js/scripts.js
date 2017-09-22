@@ -19,3 +19,12 @@ $(document).ready(function() {
 
   });
 });
+// <?php
+//     $email = $_POST['email'];
+// ?>
+// <?php
+// if ($_POST['submit']) {
+//     prompt {'"$email" has been successfully added to our mailing list';
+// } else  echo {'<p>Something went wrong, go back and try again!</p>';
+//     }
+// ?>
