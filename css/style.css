@@ -1,408 +1,409 @@
-  body {
-  margin: 0 0;
-  font-family: 'Arvo', sans-serif;
-}
-
-
-/*Navigation*/
-
-nav {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  background-color: #F15A29;
-  position: absolute;
-  width: 100%;
-  left: -100%;
-  font-size: 50px;
-  color: black;
-}
-
-a {
-  color: black;
-  text-decoration: none;
-}
-
-#open-nav {
-  position: absolute;
-  font-size: 300%;
-  padding: 5%;
-  color: white;
-  z-index: +1;
-}
-
-#close-nav {
-  position: absolute;
-  font-size: 50%;
-  padding: 5px 15px 900px 500px;
-  left: 90%;
-  /*top: 20px;*/
-  margin-bottom: 100%;
-  top: 5%;
-}
-
-.part1 {
-  background: url(../assets/images/backgrounds/landing.jpg);
-  background-size: 100%;
-  padding-bottom: 0%;
-  width: 100%;
-  min-height: 600px;
-  background-repeat: no-repeat;
-}
-
-.logo {
-  padding: 100px 0 0 50px;
-  text-align: center;
-}
-
-h1 {
-  text-align: center;
-  padding: 60px 0 0 80px;
-  color: white;
-  font-size: 30px;
-}
-
-.col-md-3 {
-  text-align: center;
-  color: white;
-  font-size: 20px;
-  padding: 0px;
-}
-
-.panel {
-  background-size: 100%;
-  width: 100%;
-  min-height: 200px;
-  padding: 100px;
-}
-
-.part2b {
-  background: url(../assets/images/foodtop/breakfast.jpg);
-  background-size: 100%;
-  width: 100%;
-  min-height: 200px;
-  padding: 80px;
-  background-repeat: no-repeat;
-  opacity: 1.0;
-  filter: alpha(opacity=100);
-}
-
-.part2b:hover {
-  opacity: 0.8;
-  /*filter: alpha(opacity=25);*/
-  color: black;
-}
-
-.happy {
-  background-color: lightgrey;
-  color: black;
-  min-height: 50px;
-  padding: 31px;
-  width: 360px;
-}
-
-.time {
-  background-color: #F15A29;
-  min-height: 100px;
-  padding: 31px;
-}
-
-.part2d {
-  background-image: url(../assets/images/foodtop/dinner.jpg);
-  background-size: 100%;
-  width: 100%;
-  min-height: 200px;
-  padding: 80px;
-  background-repeat: no-repeat;
-  opacity: 1.0;
-  filter: alpha(opacity=100);
-}
-
-.part2d:hover {
-  opacity: 0.8;
-  filter: alpha(opacity=25);
-  color: black;
-}
-
-.part2c {
-  background-image: url(../assets/images/foodtop/lunch.jpg);
-  background-size: 100%;
-  width: 100%;
-  min-height: 200px;
-  padding: 80px;
-  background-repeat: no-repeat;
-  opacity: 1.0;
-  filter: alpha(opacity=100);
-}
-
-.part2c:hover {
-  opacity: 0.8;
-  filter: alpha(opacity=25);
-  color: black;
-}
-
-div.part3a {
-  padding: 20px;
-  box-shadow: 0 4px 0px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  margin-left: 40px;
-}
-
-.part3b {
-  margin-right: 40px;
-  margin-left: 30px;
-}
-
-.next {
-  background-color: white;
-  color: #F15A29;
-  text-decoration: none;
-}
-
-.gallery {
-  display: inline-block;
-  padding: 8px 16px;
-  margin-top: 30px;
-  outline-style: solid;
-  outline-width: 2px;
-  outline-color: #F15A29;
-}
-
-a:hover {
-  background-color: #ddd;
-  text-decoration: none;
-  cursor: pointer;
-  color: #F15A29;
-}
-
-div.part3d {
-  padding: 20px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  float: left;
-  margin-left: 30px;
-}
-
-.stubborn {
-  float: left;
-}
-
-.part3c {
-  text-align: right;
-  margin-left: 40px;
-}
-
-.checker {
-  padding: 6% 0% 5% 0%;
-}
-
-h2 {
-  font-size: 30px;
-}
-
-h3 {
-  font-size: 30px;
-}
-
-.drinks {
-  width: auto;
-  padding-top: 8%;
-}
-
-.foo {
-  margin-top: 80px;
-  padding-top: 100px;
-}
-
-.part4 {
-  background: url(../assets/images/backgrounds/foodsBg.jpg);
-  background-size: 100%;
-  width: 100%;
-  min-height: 500px;
-  background-repeat: no-repeat;
-  padding-top: 95px;
-  padding-left: 165px;
-}
-
-.fa-chevron-left {
-  color: red;
-}
-
-.fa-chevron-right {
-  color: red;
-}
-
-.burger .active {
-  background-color: white;
-  color: red;
-}
-
-.part4b p {
-  color: red;
-  font-weight: bold;
-}
-
-.part4b img {
-  padding-top: 20px;
-  padding-bottom: 10px;
-}
-
-.burger .col-md-3:hover:not(.active) {
-  background-color: white;
-  color: red;
-  cursor: pointer;
-}
-
-.burger .col-md-3:not(.active) {
-  background-color: #E3E3E3;
-  border-right: 1px solid #bbb;
-  border-bottom: 1px solid #bbb;
-  width: 240px;
-}
-
-.burger {
-  width: 990px;
-  text-align: center;
-}
-
-.cols {
-  width: 1145px;
-}
-
-.burger .inactive {
-  color: black;
-}
-
-.part4b {
-  background-color: white;
-  padding-left: 5px;
-}
-
-.part5 {
-  background-color: white;
-  background-size: 100%;
-  min-height: 300px;
-}
-
-.comments {
-  background-color: white;
-  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 20px 0 rgba(0, 0, 0, 0.19);
-  font-size: 15px;
-  min-height: 200px;
-  margin: 42px 0 0 0;
-}
-
-h4 {
-  color: #F15A29;
-  font-size: 20px;
-}
-
-<<<<<<< HEAD=======>>>>>>>424591061b89a3234d4d27b883915964f78b7c67 .menu {
-  float: left;
-  text-align: center;
-  margin-right: 30px;
-  font-size: 15px;
-}
-
-.people {
-  text-align: center;
-  border-right: 1px solid;
-  border-color: lightgrey;
-}
-
-.pictures-customers {
-  padding-left: 5px;
-  padding-right: 5px;
-}
-
-.part6 {
-  background-image: url(..assets/images/backgrounds/subscribe.jpg);
-  background-size: 100%;
-  padding-bottom: 0%;
-  width: 100%;
-  min-height: 287px;
-  background-repeat: no-repeat;
-}
-
-.name {
-  color: white;
-  font-size: 500px;
-}
-
-.form-inline {
-  margin-left: 280px;
-  padding-top: 100px;
-}
-
-.form-group {
-  color: white;
-  font-size: 25px;
-  text-align: center;
-  padding-left: 120px;
-}
-
-.form-control {
-  opacity: 0.5;
-  color: white;
-}
-
-input {
-  color: black;
-}
-
-#name {
-  background-color: #F15A29;
-  border-color: #F15A29;
-  height: 45px;
-  width: 200px;
-  font-size: 20px;
-  color: white;
-  margin-left: 20px;
-}
-
-#the-email {
-  height: 45px;
-  width: 350px;
-  font-size: 20px;
-}
-
-.part7 {
-  background-color: #F15A29;
-  min-height: 300px;
-  color: white;
-  text-align: center;
-  background-repeat: no-repeat;
-}
-
-.lastpart {
-  text-align: center;
-  color: white;
-}
-
-.whitelogo {
-  padding-top: 30px;
-}
-
-<<<<<<< HEAD=======>>>>>>>424591061b89a3234d4d27b883915964f78b7c67 .lastpart h6 {
-  font-size: 40px;
-}
-
-.what-we-do {
-  font-size: 20px;
-}
-
-.menurestaurant {
-  font-size: 12px;
-  color: white;
-  padding-top: 60px;
-}
-
-<<<<<<< HEAD .socialmedia {
-  padding: 0 1% 0 0%;
-  =======.socialmedia {
-    padding: 0 1% 0 0%;
-  }
-  .fa {
-    font-size: 40px;
-    color: white;
-    >>>>>>>424591061b89a3234d4d27b883915964f78b7c67
-  }
+    body {
+      margin: 0 0;
+      font-family: 'Arvo', sans-serif;
+    }
+    /*Navigation*/
+
+    nav {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background-color: #F15A29;
+      position: absolute;
+      width: 100%;
+      left: -100%;
+      font-size: 50px;
+      color: black;
+    }
+
+    a {
+      color: black;
+      text-decoration: none;
+    }
+
+    #open-nav {
+      position: absolute;
+      font-size: 300%;
+      padding: 5%;
+      color: white;
+      z-index: +1;
+    }
+
+    #close-nav {
+      position: absolute;
+      font-size: 50%;
+      padding: 5px 15px 900px 500px;
+      left: 90%;
+      /*top: 20px;*/
+      margin-bottom: 100%;
+      top: 5%;
+    }
+
+    .part1 {
+      background: url(../assets/images/backgrounds/landing.jpg);
+      background-size: 100%;
+      padding-bottom: 0%;
+      width: 100%;
+      min-height: 600px;
+      background-repeat: no-repeat;
+    }
+
+    .logo {
+      padding: 100px 0 0 50px;
+      text-align: center;
+    }
+
+    h1 {
+      text-align: center;
+      padding: 60px 0 0 80px;
+      color: white;
+      font-size: 30px;
+    }
+
+    .col-md-3 {
+      text-align: center;
+      color: white;
+      font-size: 20px;
+      padding: 0px;
+    }
+
+    .panel {
+      background-size: 100%;
+      width: 100%;
+      min-height: 200px;
+      padding: 100px;
+    }
+
+    .part2b {
+      background: url(../assets/images/foodtop/breakfast.jpg);
+      background-size: 100%;
+      width: 100%;
+      min-height: 200px;
+      padding: 80px;
+      background-repeat: no-repeat;
+      opacity: 1.0;
+      filter: alpha(opacity=100);
+    }
+
+    .part2b:hover {
+      opacity: 0.8;
+      /*filter: alpha(opacity=25);*/
+      color: black;
+    }
+
+    .happy {
+      background-color: lightgrey;
+      color: black;
+      min-height: 50px;
+      padding: 31px;
+      width: 360px;
+    }
+
+    .time {
+      background-color: #F15A29;
+      min-height: 100px;
+      padding: 31px;
+    }
+
+    .part2d {
+      background-image: url(../assets/images/foodtop/dinner.jpg);
+      background-size: 100%;
+      width: 100%;
+      min-height: 200px;
+      padding: 80px;
+      background-repeat: no-repeat;
+      opacity: 1.0;
+      filter: alpha(opacity=100);
+    }
+
+    .part2d:hover {
+      opacity: 0.8;
+      filter: alpha(opacity=25);
+      color: black;
+    }
+
+    .part2c {
+      background-image: url(../assets/images/foodtop/lunch.jpg);
+      background-size: 100%;
+      width: 100%;
+      min-height: 200px;
+      padding: 80px;
+      background-repeat: no-repeat;
+      opacity: 1.0;
+      filter: alpha(opacity=100);
+    }
+
+    .part2c:hover {
+      opacity: 0.8;
+      filter: alpha(opacity=25);
+      color: black;
+    }
+
+    div.part3a {
+      padding: 20px;
+      box-shadow: 0 4px 0px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      margin-left: 40px;
+    }
+
+    .part3b {
+      margin-right: 40px;
+      margin-left: 30px;
+    }
+
+    .next {
+      background-color: white;
+      color: #F15A29;
+      text-decoration: none;
+    }
+
+    .gallery {
+      display: inline-block;
+      padding: 8px 16px;
+      margin-top: 30px;
+      outline-style: solid;
+      outline-width: 2px;
+      outline-color: #F15A29;
+    }
+
+    a:hover {
+      background-color: #ddd;
+      text-decoration: none;
+      cursor: pointer;
+      color: #F15A29;
+    }
+
+    div.part3d {
+      padding: 20px;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      float: left;
+      margin-left: 30px;
+    }
+
+    .stubborn {
+      float: left;
+    }
+
+    .part3c {
+      text-align: right;
+      margin-left: 40px;
+    }
+
+    .checker {
+      padding: 6% 0% 5% 0%;
+    }
+
+    h2 {
+      font-size: 30px;
+    }
+
+    h3 {
+      font-size: 30px;
+    }
+
+    .drinks {
+      width: auto;
+      padding-top: 8%;
+    }
+
+    .foo {
+      margin-top: 80px;
+      padding-top: 100px;
+    }
+
+    .part4 {
+      background: url(../assets/images/backgrounds/foodsBg.jpg);
+      background-size: 100%;
+      width: 100%;
+      min-height: 500px;
+      background-repeat: no-repeat;
+      padding-top: 95px;
+      padding-left: 165px;
+    }
+
+    .fa-chevron-left {
+      color: red;
+    }
+
+    .fa-chevron-right {
+      color: red;
+    }
+
+    .burger .active {
+      background-color: white;
+      color: red;
+    }
+
+    .part4b p {
+      color: red;
+      font-weight: bold;
+    }
+
+    .part4b img {
+      padding-top: 20px;
+      padding-bottom: 10px;
+    }
+
+    .burger .col-md-3:hover:not(.active) {
+      background-color: white;
+      color: red;
+      cursor: pointer;
+    }
+
+    .burger .col-md-3:not(.active) {
+      background-color: #E3E3E3;
+      border-right: 1px solid #bbb;
+      border-bottom: 1px solid #bbb;
+      width: 240px;
+    }
+
+    .burger {
+      width: 990px;
+      text-align: center;
+    }
+
+    .cols {
+      width: 1145px;
+    }
+
+    .burger .inactive {
+      color: black;
+    }
+
+    .part4b {
+      background-color: white;
+      padding-left: 5px;
+    }
+
+    .part5 {
+      background-color: white;
+      background-size: 100%;
+      min-height: 300px;
+    }
+
+    .comments {
+      background-color: white;
+      box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 20px 0 rgba(0, 0, 0, 0.19);
+      font-size: 15px;
+      min-height: 200px;
+      margin: 42px 0 0 0;
+    }
+
+    h4 {
+      color: #F15A29;
+      font-size: 20px;
+    }
+
+    .menu {
+      float: left;
+      text-align: center;
+      margin-right: 30px;
+      font-size: 15px;
+    }
+
+    .people {
+      text-align: center;
+      border-right: 1px solid;
+      border-color: lightgrey;
+    }
+
+    .pictures-customers {
+      padding-left: 5px;
+      padding-right: 5px;
+    }
+
+    .part6 {
+      background-image: url();
+    }
+
+    .part6 {
+      background-image: url(../assets/images/backgrounds/subscribe.jpg);
+      background-size: 100%;
+      padding-bottom: 0%;
+      width: 100%;
+      min-height: 287px;
+      background-repeat: no-repeat;
+    }
+
+    .name {
+      color: white;
+      font-size: 500px;
+    }
+
+    .form-inline {
+      margin-left: 280px;
+      padding-top: 100px;
+    }
+
+    .form-group {
+      color: white;
+      font-size: 25px;
+      text-align: center;
+      padding-left: 120px;
+    }
+
+    .form-control {
+      opacity: 0.5;
+      color: white;
+    }
+
+    input {
+      color: black;
+    }
+
+    #name {
+      background-color: #F15A29;
+      border-color: #F15A29;
+      height: 45px;
+      width: 200px;
+      font-size: 20px;
+      color: white;
+      margin-left: 20px;
+    }
+
+    #the-email {
+      height: 45px;
+      width: 350px;
+      font-size: 20px;
+    }
+
+    .part7 {
+      background-color: #F15A29;
+      min-height: 300px;
+      color: white;
+      text-align: center;
+      background-repeat: no-repeat;
+    }
+
+    .lastpart {
+      text-align: center;
+      color: white;
+    }
+
+    .whitelogo {
+      padding-top: 30px;
+    }
+
+    .lastpart h6 {
+      font-size: 40px;
+    }
+
+    .what-we-do {
+      font-size: 20px;
+    }
+
+    .menurestaurant {
+      font-size: 12px;
+      color: white;
+      padding-top: 60px;
+    }
+    /*.socialmedia {
+      padding: 0 1% 0 0%;
+    }*/
+
+    .fa {
+      font-size: 40px;
+      color: white;
+      margin-left: 10px;
+      margin-right: 10px;
+    }
