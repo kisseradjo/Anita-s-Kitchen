@@ -6,7 +6,7 @@
 
 ## Description
 
-A landing page for the Menu Restaurant displaying available offers and promotions. The front-end design has a full menu navigation bar and a few hover effect introduced as well as a form for taking in subscribers.
+A landing page for the Menu Restaurant displaying available offers and promotions. The front-end design has a full menu navigation bar and a few hover effect introduced as well as a form for taking in subscribers.https://kisseradjo.github.io/Anita-s-Kitchen/
 
 ## Setup/Installation Requirements
 
